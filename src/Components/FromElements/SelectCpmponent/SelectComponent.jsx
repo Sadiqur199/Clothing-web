@@ -3,7 +3,7 @@ import React from "react";
 function SelectComponent({ label, value, onChange,options = [] }) {
   return (
     <div className="relative">
-      <p className="pt-0 pr-2 -mt-3 pl-2 pb-0 mr-0 mb-0 ml-2 font-medium text-gray-600">
+      <p className="pt-0 absolute pr-2 -mt-3 pl-2 pb-0 mr-0 mb-0 ml-2 font-medium text-gray-600 bg-white">
         {label}
       </p>
       <select
