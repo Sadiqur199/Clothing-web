@@ -1,5 +1,3 @@
-//add a new product service
-
 import Cookies from "js-cookie";
 
 export const addNewProduct = async (formData) => {
