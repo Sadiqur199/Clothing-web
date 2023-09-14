@@ -29,7 +29,6 @@ export default function Login() {
 
   const router = useRouter();
 
-  console.log(formData);
 
   function isValidForm() {
     return formData &&
@@ -45,7 +44,6 @@ export default function Login() {
     setComponentLevelLoader({ loading: true, id: "" });
     const res = await login(formData);
 
-    console.log(res);
 
     if (res.success) {
       toast.success(res.message, {
