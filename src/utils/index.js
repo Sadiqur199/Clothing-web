@@ -199,7 +199,7 @@ export const firebaseConfig = {
 };
 
 export const firebaseStroageURL =
-  "YOUR_FIREBASE_STROAGE_URL";
+  "gs://cloth-ecommerce-4cb2c.appspot.com";
 
 export const addNewAddressFormControls = [
   {
